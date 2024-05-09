@@ -1,0 +1,252 @@
+/*---------------------------nav bar*/
+.navbar {
+ padding-left: 50px;
+    padding-top: 30px;
+  background-color: ##FFC194;
+  overflow: hidden;    
+}
+.navbar a {
+  float: right;
+  font-size: 45px;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+    
+}
+
+}
+.logo{
+    height: 100px;
+    width:500px;
+    position: absolute;
+}
+body{
+    background-color: #FFC194;
+    margin:0px;
+}
+
+
+.Cart{
+    height:50px;
+    width:50px;
+    padding-left: 20px;
+    position: absolute;
+    left: 550px;
+    top:75px;
+}
+.checkoutheading{
+   text-align:  left;
+    font-size: 60px;
+    bottom: 40px;
+    position: relative;
+    left: 40px;
+    
+}
+.total{
+    margin-top: 450px;
+    font-size: 50px;
+    margin-left: 100px;
+    position: absolute;
+}
+.size{
+    font-size: 50px;
+    top: 400px;
+    position: relative;
+    left: 50px;
+}
+
+/*-------------------------Customer detail text boxes---------------- */
+#fname{
+    height: 40px;
+    width: 250px;
+}
+#lname{
+    height: 40px;
+    width: 250px;
+}
+#street{
+    height: 40px;
+    width: 250px;
+}
+#street2{
+    height: 40px;
+    width: 250px;
+}
+#city{
+    height: 40px;
+    width: 250px;
+}
+#postcode{
+    height: 40px;
+    width: 250px;
+}
+#phone{
+    height: 40px;
+    width: 250px;
+}
+#email{
+    height: 40px;
+    width: 250px;
+}
+.address{
+     font-size: 50px;
+    margin-left: 40px;
+    text-align: left;
+    position: absolute;
+    top: 1450px;
+}
+.name{
+    font-size: 50px;
+    margin-left: 40px;
+    position: absolute;
+    top: 1300px;
+}
+.city{
+    font-size: 50px;
+    margin-left: 40px;
+    position: absolute;
+    top: 1600px;
+}
+.phone{
+    font-size: 50px;
+    margin-left: 40px;
+    position: absolute;
+    top: 1750px;
+    text-align: left;
+}
+/*-------------------------payment---------------- */
+.cardtype{
+    top: 900px;
+    left: 900px;
+    font-size: 50px;
+    position: absolute;
+}
+.cardimg{
+    height: 200px;
+    width:500px;
+    right: 150px;
+    position: absolute;
+    top: 1050px;
+    border: 3px solid black;  
+}
+.payment{
+     right: 100px;
+    position: absolute;
+    top: 1300px;
+    font-size: 50px;
+}
+#cardnum{
+    height: 40px;
+    width: 250px;
+}
+#expdate{
+    height: 40px;
+    width: 250px;
+}
+#cardname{
+    height: 40px;
+    width: 250px;
+}
+#cardcvv{
+    height: 40px;
+    width: 250px;
+}
+.paynow{
+    text-decoration: none;
+    border: 3px solid black;
+    background-image: linear-gradient(to right, #0fb81d,#22c730 , lime);
+  
+    font-size: 60px;
+    color: black;
+     right: 400px;
+    position: absolute;
+    top: 1810px;
+    border-radius: 20px;
+}
+/*-------------------------lines---------------- */
+.line{
+    border-left: 2px  solid black;
+    height: 1200px;
+    top: 922px;
+   position: absolute;
+    left: 50%;
+}
+hr{
+    color: black;
+    border-color: black;
+    font-size:100%;
+    
+}
+.hr1{
+    bottom:85px;
+    position: relative;
+}
+.hr2{
+    position:relative;
+    top: 600px;
+    
+
+}
+
+.hr3{
+    margin-top: 800px;
+    position:absolute;
+    width: 50%;
+    left:0px;
+}
+
+/*-------------------------Footer---------------- */
+.footer{
+    background-color: dimgray;
+     position: absolute;
+            top: 2000px;
+            left: 0px;
+            width: 100%;
+    height: 250px;
+            color: #fff;
+            text-align: center;
+           padding: 0px;
+}
+.ftlogo{
+    height: 100px;
+        width:350px;
+        left:0px;
+    float: left;
+   top: 90px;
+    position: absolute;
+   
+    left:40px
+}
+.ftnav{
+    float: left;
+    right: 100px;
+     position: absolute;
+     left:20px;
+    bottom: 150px;
+    padding: 0px;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    
+   
+}
+.ftnav a{
+    color: white;
+   
+}
+.copyright{
+    text-align: left;
+    top:200px;
+    position: absolute;
+    left: 20px;
+}
+.ftcontact{
+    left: 800px;
+    position: absolute;
+
+    text-align:left;
+    
+    font-size: 40px;
+    bottom: 10px
+}
